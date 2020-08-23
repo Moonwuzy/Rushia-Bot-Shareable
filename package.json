@@ -1,0 +1,30 @@
+{
+  "name": "rushia",
+  "version": "1.0.4",
+  "description": "Meet Rushia, a bot based upon the Hololive Virtual YouTuber Uruha Rushia. | Moderation | Polls | Fun | Translate | All in one!",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot": "node ./bot.js",
+    "dev": "nodemon ./bot.js"
+  },
+  "author": "Moon",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^3.0.0",
+    "dblapi.js": "^2.4.0",
+    "discord-bot-list": "^1.0.1",
+    "discord-xp": "^1.0.5",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "imageapi.js": "^1.0.5",
+    "node-prefix": "^0.1.0",
+    "nodemon": "^2.0.4",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.1.1",
+    "sequelize": "^6.3.3",
+    "sqlite3": "^5.0.0",
+    "superagent": "^5.3.1"
+  }
+}
